@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 @app.route('/payload_stack', methods=['GET'])
 def payload_stack():
     # io = pwn.process('./stack')
-    with open('payload_stack', 'rb') as f:
+    with open('codeitsuisse\routes\payload_stack', 'rb') as f:
         payload = f.read()
 
     # io.send(payload)
