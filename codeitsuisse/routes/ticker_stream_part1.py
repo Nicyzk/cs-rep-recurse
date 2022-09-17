@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 def tickerStreamPart1():
     data = request.get_json()
     logging.info("data sent for evaluation {}".format(data))
-    inputValue = data.get("input")
+    inputValue = data.get("stream")
     result = to_cumulative(inputValue)
     # logging.info("My result :{}".format(result))
     logging.info("My result :{}".format(result))
