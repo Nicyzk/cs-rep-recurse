@@ -18,10 +18,12 @@ logger = logging.getLogger(__name__)
 def tickerStreamPart2():
     data = request.get_json()
     logging.info("data sent for evaluation {}".format(data))
-    inputValue = data.get("input")
-    result = to_cumulative_delayed(inputValue)
+    inputValue = data.get("stream")
+    inputValue2 = data.get("quantityBlock")
+
+    result = to_cumulative_delayed(inputValue,inputValue2)
     # logging.info("My result :{}".format(result))
-    logging.info("My result :{}".format(result))
+    logging.info("output:{}".format(result))
     return json.dumps(result)
 
 def to_cumulative_delayed(stream: list, quantity_block: int):

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f93a891-cdbc-402d-a835-072fd816d735" name="Default" comment="added pandas requirement, crypto_collapz.py and updated ticker_stream.py" />
+    <list default="true" id="2f93a891-cdbc-402d-a835-072fd816d735" name="Default" comment="added pandas requirement, crypto_collapz.py and updated ticker_stream.py">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeitsuisse/routes/crypto_collapz.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/routes/crypto_collapz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeitsuisse/routes/ticker_stream_part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/routes/ticker_stream_part1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeitsuisse/routes/ticker_stream_part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/routes/ticker_stream_part2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
