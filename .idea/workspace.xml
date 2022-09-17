@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f93a891-cdbc-402d-a835-072fd816d735" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/codeitsuisse/routes/crypto_collapz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python-student-template.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-student-template.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeitsuisse/routes/ticker_stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeitsuisse/routes/ticker_stream.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="2f93a891-cdbc-402d-a835-072fd816d735" name="Default" comment="added pandas requirement, crypto_collapz.py and updated ticker_stream.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +83,14 @@
       <option name="presentableId" value="Default" />
       <updated>1533474856276</updated>
     </task>
+    <task id="LOCAL-00001" summary="added pandas requirement, crypto_collapz.py and updated ticker_stream.py">
+      <created>1663402030872</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663402030872</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +103,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added pandas requirement, crypto_collapz.py and updated ticker_stream.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pandas requirement, crypto_collapz.py and updated ticker_stream.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
