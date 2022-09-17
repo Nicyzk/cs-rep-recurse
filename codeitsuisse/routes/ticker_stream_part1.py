@@ -19,7 +19,7 @@ def tickerStreamPart1():
     data = request.get_json()
     logging.info("data sent for evaluation {}".format(data))
     inputValue = data.get("stream")
-    result = to_cumulative(inputValue)
+    result = {"output":to_cumulative(inputValue)}
     # logging.info("My result :{}".format(result))
     logging.info("output:{}".format(result))
     return json.dumps(result)
