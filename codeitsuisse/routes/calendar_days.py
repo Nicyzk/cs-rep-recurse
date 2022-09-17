@@ -17,5 +17,5 @@ def calendar_days():
     logging.info("output:{}".format(result))
     return json.dumps(result)
 
-def calendar_day(stream: list):
+# def calendar_day(stream: list):
     
